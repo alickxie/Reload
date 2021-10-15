@@ -250,7 +250,6 @@ function update() {
 	// Conditions to remove the enemies from the world,
 	// and game over.
 	remove(enemies, (e) => {
-
 		// Create and move enemy toward player in the center
 		color("black");
 		if (e.pos.distanceTo(50, 50) > 30) {
